@@ -1,0 +1,34 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: sans-serif;
+    padding-top:48px;
+    padding-left: 48px;
+}
+button{
+    cursor: pointer;
+}
+h1{
+    margin-bottom: 8px;
+}
+button, .todoInput{
+    padding: 0.5rem;
+}
+.todoInput{
+    width: 500px;
+}
+.todoItem{
+    display:flex;
+    align-items: center;
+    margin: 8px 0px;
+}
+.todoItem button{
+    margin-right: 8px;
+}
+.completed .todoText{
+    opacity: 0.6;
+    text-decoration: line-through;
+}
